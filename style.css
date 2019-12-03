@@ -1,0 +1,58 @@
+.box1{
+  width:100px;
+  height:100px;
+  background:rgba(255,0,0,0.5);
+  position:absolute;
+  top:100px;
+  left:50%;
+  margin-left:-100px;
+}
+
+.box2{
+  width:100px;
+  height:100px;
+  background:rgba(0,0,255,0.5);
+  position:absolute;
+  top:100px;
+  left:90%;
+  margin-left:-100px;
+}
+.box3{
+  width:100px;
+  height:100px;
+  background:rgba(255,255,0, 0.6);
+  position:absolute;
+  top:100px;
+  left:50%;
+  margin-left:-100px;
+}
+.box4{
+  width:100px;
+  height:100px;
+  background:rgba(0,255,0,0.6);
+  position:absolute;
+  top:100px;
+  left:50%;
+  margin-left:-100px;
+}
+@-webkit-keyframes ascendingbox{
+  0%{left:90%;}
+  50%{left:10%;}
+  100%{left:90%;}
+  from{left:0%;}
+  to{top:90%;}
+}
+@-webkit-keyframes descendingbox{
+  0%{left:90%;}
+  50%{left:10%;}
+  100%{left:90%;}
+}
+.box2{
+  -webkit-animation:ascendingbox 2s infinite;
+}
+.box3{
+  -webkit-animation:descendingbox 9s infinite;
+}
+.box4{
+  -webkit-animation:descendingbox 15s infinite;
+}
