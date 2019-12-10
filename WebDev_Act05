@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School Alumni Networking Website</title>
+</head>
+<body bgcolor="#1d2124">
+	<script src="demo_script_src.js"></script>
+	<div class="vertical-menu">
+	  <a href="#"><img src="5.png"></a>
+	  <a href="#"><img src="1.png"></a>
+	  <a href="#"><img src="2.png"></a>
+	  <a href="#"><img src="3.png"></a>
+	  <a href="#"><img src="4.png"></a>
+	  <a href="#"><img src="6.png"></a>
+	</div>
+	
+	<div class="search">
+  <input type="search" class="search-box" />
+  <span class="search-button">
+    <span class="search-icon"></span>
+  </span>
+</div>
+</div>
+</body>
+</html>
